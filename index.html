@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino lessons</title>
+    <link rel="icon" href="abu.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679;</button>
+    <header>
+        <a href="#" class="logo">Arduino<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Arduino parts</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Comment</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sed explicabo accusamus delectus harum voluptatibus id
+                perspiciatis quis ducimus sit officia error, consequatur
+                libero ipsa debitis non, doloremque ipsam expedita perferendis.
+            </p>
+            <a href="https://www.youtube.com/channel/UCL4igGJYaESMyGuX8UNQTSw" class="btn" target="_blank">Our Channel</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout</h2>
+                <p>Hello dear visitors of our site. My name is Abdurahmon Odiljonov. 
+                    I am 14 years old and have been interested in programming 
+                    since I was 11 years old. <br><br> I My goal in developing this website is 
+                    to share knowledge with people. We also have a youtube channel. 
+                    I will give a little information about Arduino on this website.<br><br> I 
+                    haven’t sat idle so far, I’ve learn HTML, CSS, PYTHON, JSON, ARDUINO UNO, 
+                    and JS so far.<br><br> I  God willing I will soon be teaching what can be learned in our
+                     channel with the help of HTML, CSS, JS and what it is.
+                    Thank you very much for your attention.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Arduino <span>P</span>arts</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>        
+        <div class="content">
+            <div class="box" onclick="gobazar()">
+                <div class="imgBx">
+                    <img src="kit.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Arduino kit</h3>
+                </div>
+            </div>
+            <div class="box" onclick="gobazar()">
+                <div class="imgBx">
+                    <img src="uno.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Arduino Uno</h3>
+                </div>
+            </div>
+            <div class="box" onclick="gobazar()">
+                <div class="imgBx">
+                    <img src="joy.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Arduino Joystick</h3>
+                </div>
+            </div>
+            <div class="box" onclick="gobazar()">
+                <div class="imgBx">
+                    <img src="leds.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Arduino leds</h3>
+                </div>
+            </div>
+            <div class="box" onclick="gobazar()">
+                <div class="imgBx">
+                    <img src="cabel.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Arduino Printer cabel</h3>
+                </div>
+            </div>
+            <div class="box" onclick="gobazar()">
+                <div class="imgBx">
+                    <img src="potan.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Arduino potansiometr</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="https://gobazar.uz/product-list?k=arduino%20kit&cpn=1" target="_blank" class="btn">View all</a>
+        </div>        
+    </section>
+    
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">My expert <span>F</span>riends</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div> 
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="qudrat.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Abduhalilov Qudrat</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="abu.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Odiljanov Abduraxmon</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="muhammad.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Muhammad Irshad</h3>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText">They <span>S</span>aid About Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div> 
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="qudrat.png" alt="">
+                </div>
+                <div class="text">
+                    <p>
+                        Bravo I learned a lot from you. Please post such a great video on your Youtube channel again.
+                    </p>
+                    <h3>Alijanov Doniyor</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="qudrat.png" alt="">
+                </div>
+                <div class="text">
+                    <p>
+                        Bravo I learned a lot from you. Please post such a great video on your Youtube channel again.
+                    </p>
+                    <h3>Abduhalilov Qudrat</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="qudrat.png" alt="">
+                </div>
+                <div class="text">
+                    <p>
+                        Bravo I learned a lot from you. Please post such a great video on your Youtube channel again.
+                    </p>
+                    <h3>Odiljanov Abduraxmon</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div> 
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea type="text" placeholder="Send Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright 2021 <a href="https://www.youtube.com/channel/UCL4igGJYaESMyGuX8UNQTSw">Arduino-darslari.</a> All Right Reserved</p>
+    </div>
+    <div class="menu-left">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+    </div>
+    <script src="all.js"></script>
+    <script>    
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+        function gobazar(){
+            window.open('https://gobazar.uz/product-details?itm=v1%7C163826363177%7C0');
+        }
+        var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+</body>
+</html>
